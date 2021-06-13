@@ -1,0 +1,3 @@
+azure-iothub-device-client
+numpy==1.18.3
+rtimulib
