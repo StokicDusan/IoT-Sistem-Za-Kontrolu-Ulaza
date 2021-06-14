@@ -1,6 +1,4 @@
 FROM balenalib/raspberrypi3:stretch
-# The balena base image for building apps on Raspberry Pi 3. 
-# Raspbian Stretch required for piwheels support. https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/
 
 # Enforces cross-compilation through Quemu
 RUN [ "cross-build-start" ]
