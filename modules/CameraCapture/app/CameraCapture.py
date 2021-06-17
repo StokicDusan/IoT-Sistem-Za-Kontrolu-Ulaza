@@ -9,12 +9,11 @@ if sys.version_info[0] < 3:#e.g python version <3
 else:
     import cv2
     from cv2 import cv2
-# pylint: disable=E1101
-# pylint: disable=E0401
-# Disabling linting that is not supported by Pylint for C extensions such as OpenCV. See issue https://github.com/PyCQA/pylint/issues/1955 
+
 import numpy
 import requests
 import json
+import RPi.GPIO as GPIO
 import time
 
 import VideoStream
@@ -132,7 +131,7 @@ class CameraCapture(object):
 
     def get_display_frame(self):
         return self.displayFrame
-
+            
     def start(self):
         frameCounter = 0
         perfForOneFrameInMs = None
@@ -142,7 +141,36 @@ class CameraCapture(object):
             if self.verbose:
                 startCapture = time.time()
 
+            time.sleep(10)
+            GPIO.setmode(GPIO.BOARD)
+            GPIO.setup(11, GPIO.IN)
+            GPIO.setup(13, GPIO.OUT)
+            GPIO.setup(22, GPIO.OUT)
+            GPIO.setwarnings(False)
+            duration = 0.0
+            distance = 255
+            #Wait until we detect a distance less then .5 m
+            while (distance>50):
+                GPIO.output(13, False)
+                time.sleep(2)
+                GPIO.output(13, True)
+                time.sleep(1e-5)
+                GPIO.output(13, False)
+
+                while GPIO.input(11)==0:
+                    pulse_start=time.time()
+                
+                while GPIO.input(11)==1:
+                    pulse_end=time.time()
+                
+                duration = pulse_end-pulse_start
+                distance = duration * 17150
+            GPIO.output(22, True)
+            GPIO.cleanup(11)
+            GPIO.cleanup(13)
+            
             frameCounter +=1
+
             if self.isWebcam:
                 frame = self.vs.read()
             else:

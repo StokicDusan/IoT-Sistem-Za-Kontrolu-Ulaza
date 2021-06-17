@@ -1,7 +1,9 @@
 # To make python 2 and python 3 compatible code
 from __future__ import absolute_import
 
-# Returns rectangle boundaries in the CV2 format (topLeftX, topLeftY, bottomRightX, bottomRightY) given by a processing service
+# Returns rectangle boundaries in the 
+# CV2 format (topLeftX, topLeftY, bottomRightX, bottomRightY) 
+# given by a processing service
 
 
 class AnnotationParser:
@@ -37,7 +39,8 @@ class AnnotationParser:
                                 [topLeftX, topLeftY, bottomRightX, bottomRightY])
             return listOfCV2Rectangles
         except:
-            # Ignoring exceptions for now so that video can be read and analyzed without post-processing in case of errors
+            # Ignoring exceptions for now so that video can be read and analyzed 
+            # without post-processing in case of errors
             pass
 
     def getCV2RectanglesFromProcessingService2(self, response):
@@ -67,5 +70,6 @@ class AnnotationParser:
                                 [topLeftX, topLeftY, bottomRightX, bottomRightY])
             return listOfCV2Rectangles
         except:
-            # Ignoring exceptions for now so that video can be read and analyzed without post-processing in case of errors
+            # Ignoring exceptions for now so that video can be read and
+            # analyzed without post-processing in case of errors
             pass
