@@ -4,10 +4,9 @@
     "image": {
         "repository": "$CONTAINER_REGISTRY_ADDRESS/ledindicator",
         "tag": {
-            "version": "0.0.1",
+            "version": "0.0.2",
             "platforms": {
-                "arm32v7": "./arm32v7.Dockerfile",
-                "test-arm32v7": "./test/test-arm32v7.Dockerfile"
+                "arm32v7": "./arm32v7.Dockerfile"
             }
         },
         "buildOptions": []
