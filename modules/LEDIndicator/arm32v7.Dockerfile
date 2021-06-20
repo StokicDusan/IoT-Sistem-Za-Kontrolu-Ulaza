@@ -1,7 +1,7 @@
 FROM balenalib/raspberrypi3:stretch
-WORKDIR /app
 
-# disable python buffering to console out (https://docs.python.org/2/using/cmdline.html#envvar-PYTHONUNBUFFERED)
+RUN [ "cross-build-start" ]
+
 ENV PYTHONUNBUFFERED=1
 
 # Install dependencies
@@ -12,12 +12,20 @@ RUN apt-get update && apt-get install -y \
     python-pip \
     python-setuptools \
     swig \
-    zlib1g-dev
+    zlib1g-dev\
+    libopenjp2-7-dev \
+    libatlas-base-dev \
+    wget \
+    libboost-python1.62.0 \
+    curl \
+    libcurl4-openssl-dev
 
-COPY requirements.txt ./
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt \
-    RPi.GPIO
+COPY /build/arm32v7-requirements.txt ./
+RUN pip install --upgrade pip 
+RUN pip install --upgrade setuptools
+RUN pip install -r arm32v7-requirements.txt
+
+RUN [ "cross-build-end" ]
 
 ADD /app/ .
 ADD /build/ .
