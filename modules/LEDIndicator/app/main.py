@@ -1,14 +1,9 @@
-# Copyright (c) Emmanuel Bertrand. All rights reserved.
-# Licensed under the MIT license. See LICENSE file in the project root for
-# full license information.
-
 import os
 import random
 import time
 import sys
 import iothub_client
-# pylint: disable=E0611
-# Disabling linting that is not supported by Pylint for C extensions such as iothub_client. See issue https://github.com/PyCQA/pylint/issues/1955
+
 from iothub_client import IoTHubModuleClient, IoTHubClientError, IoTHubTransportProvider, IoTHubClientRetryPolicy
 from iothub_client import IoTHubMessage, IoTHubMessageDispositionResult, IoTHubError, DeviceMethodReturnValue
 import DisplayManager
@@ -30,7 +25,7 @@ def receive_message_callback(message, HubManager):
     body = message_buffer[:len(message_buffer)].decode('utf-8')
     allTagsAndProbability = json.loads(body)
     try:
-        DISPLAY_MANAGER.displayImage(MESSAGE_PARSER.highestProbabilityTagMeetingThreshold(
+        DISPLAY_MANAGER.displayPerson(MESSAGE_PARSER.highestProbabilityTagMeetingThreshold(
             allTagsAndProbability, THRESHOLD))
     except Exception as error:
         print("Message body: " + body)
@@ -59,7 +54,7 @@ class HubManager(object):
 
 def main():
     try:
-        print("Starting the SenseHat module...")
+        print("Starting the LED Indicator module...")
 
         global DISPLAY_MANAGER
         global MESSAGE_PARSER
