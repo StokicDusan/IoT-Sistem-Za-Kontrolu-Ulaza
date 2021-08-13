@@ -7,9 +7,9 @@ This is a project showing how to deploy a Custom Vision model to a Raspberry Pi 
 ### Hardware
 You can run this solution using the following hardware:
 
-- **Raspberry Pi 3**: Set up Azure IoT Edge on a Raspberry Pi 3,  
+- **Raspberry Pi 3**: Set up Azure IoT Edge on a Raspberry Pi 3,
 
-- **USB Camera**: Connect a camera on a Raspberry Pi 3 USB port,  
+- **USB Camera**: Connect a camera on a Raspberry Pi 3 USB port,
 
 - **Electronics Components**: Most of what you needed for this solution can be found in the [SparkFun Inventor's Kit](https://www.sparkfun.com/products/15267) which includes:
   * Solderless Breadboard,
@@ -17,7 +17,7 @@ You can run this solution using the following hardware:
   * Relay module,
   * Jumper Wires,
   * Red, Green and Yellow LED,
-  * 3x 220Ω, 1x 1kΩ and 1x 2kΩ resistor.  
+  * 3x 220Ω, 1x 1kΩ and 1x 2kΩ resistor.
 
 ### Services
 You must have the following services set up to use this solution:
