@@ -1,3 +1,11 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Commit-activity][commit-activity-shield]][commit-activity-url]
+[![Issues][issues-shield]][issues-url]
+[![Repo-size][repo-size-shield]][repo-size-url]
+[![License][license-shield]][license-url]  
+[![Forks][forks-shield]][forks-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # Azure IoT Edge system for access control using Custom Vision
 
 This is a project showing how to deploy a Custom Vision model to a Raspberry Pi 3 device running Azure IoT Edge. The project uses Custom Vision model for facial recognition and controls a relay module which can be used as a switch opening an automatic door.
@@ -43,3 +51,18 @@ You can find a more detailed guide on how to deploy the solution [here](https://
 
 ## Big Thanks! 🚀
 This solution was heavily influenced by [this](https://github.com/Azure-Samples/Custom-vision-service-iot-edge-raspberry-pi) Azure-Samples solution. Big love to them for inspiring me to build this soluton.
+
+[contributors-shield]: https://img.shields.io/github/contributors/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza
+[contributors-url]: https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza?style=social
+[forks-url]: https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/network/members
+[issues-shield]: https://img.shields.io/github/issues/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza
+[issues-url]: https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/issues
+[commit-activity-shield]: https://img.shields.io/github/last-commit/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza
+[commit-activity-url]: https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/graphs/commit-activity
+[license-url]: https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/blob/master/LICENSE
+[license-shield]: https://img.shields.io/github/license/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza
+[repo-size-shield]: https://img.shields.io/github/repo-size/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza
+[repo-size-url]: https://img.shields.io/github/repo-size/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=plastice&logo=linkedin&logoColor=white
+[linkedin-url]: https://linkedin.com/in/stokicdusan
