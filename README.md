@@ -51,6 +51,10 @@ From your mac or PC:
 2. Update the `.env` file with the values for your container registry and make sure that your docker engine has access to it,
 3. Build the entire solution by right-clicking on the `deployment.template.json` file and select `Build and push IoT Edge Solution`,
 4. Deploy the solution to your device by right-clicking on the `config/deployment.json` file, select `Create Deployment for Single device` and choose your targeted device.
+5. Test out the solution!!!
+
+![zeleno](https://giphy.com/gifs/led-iot-raspberry-pi-3-F6fwrkMoHZD1MUaINe.gif)
+
 
 You can find a more detailed guide on how to deploy the solution [here](https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/tree/master/guide).
 
