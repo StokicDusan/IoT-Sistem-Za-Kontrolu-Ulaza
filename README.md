@@ -45,8 +45,7 @@ You need the following dev tools to do IoT Edge development in general, to make 
 - **Visual Studio Code: Azure IoT Edge Extension**: This extension connects to your IoT Hub and lets you manage your IoT Devices and IoT Edge Devices from VS Code. [Download it from here](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-edge). Once installed, connect it to your IoT Hub.
 
 ## Get started
-### To deploy the solution on a Raspberry Pi 3
-From your mac or PC:
+### To deploy the solution
 1. Clone this solution,
 2. Update the `.env` file with the values for your container registry and make sure that your docker engine has access to it,
 3. Build the entire solution by right-clicking on the `deployment.template.json` file and select `Build and push IoT Edge Solution`,
