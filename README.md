@@ -29,6 +29,9 @@ You can run this solution using the following hardware:
 
 Wiring scheme can be seen in the image below:  
 
+<img src="https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/blob/master/assets/sema_bb3_bb2.png" alt="scheme" align="center" width="90%" height="auto" />
+<br/>
+
 ### Services
 You must have the following services set up to use this solution:
 - **Azure IoT Hub**: This is your Cloud gateway which is needed to manage your IoT Edge devices. All deployments to Edge devices are made through an IoT Hub. You can use the Free Standard tier for this solution.
