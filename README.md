@@ -55,6 +55,12 @@ You need the following dev tools to do IoT Edge development in general, to make 
 
 You can find a more detailed guide on how to deploy the solution [here](https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/tree/master/guide).
 
+## Provide Feedback 👍
+
+If you encounter any bugs or have suggestions, please file an issue in the
+[Issues][issues-url]
+section of the project.
+
 ## Big Thanks! 🚀
 This solution was heavily influenced by [this](https://github.com/Azure-Samples/Custom-vision-service-iot-edge-raspberry-pi) Azure-Samples solution. Big love to them for inspiring me to build this soluton.
 
