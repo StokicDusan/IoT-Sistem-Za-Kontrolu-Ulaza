@@ -51,7 +51,7 @@ You need the following dev tools to do IoT Edge development in general, to make 
 3. Build the entire solution by right-clicking on the `deployment.template.json` file and select `Build and push IoT Edge Solution`,
 4. Deploy the solution to your device by right-clicking on the `config/deployment.json` file, select `Create Deployment for Single device` and choose your targeted device.
 5. Test out the solution!!!  
-![greenLED](https://giphy.com/gifs/led-iot-raspberry-pi-3-F6fwrkMoHZD1MUaINe) ![redLED](https://giphy.com/gifs/electronics-iot-raspberry-pi-3-rZxUgucFatEhH0cOLx)
+[greenLED](https://giphy.com/gifs/led-iot-raspberry-pi-3-F6fwrkMoHZD1MUaINe) [redLED](https://giphy.com/gifs/electronics-iot-raspberry-pi-3-rZxUgucFatEhH0cOLx)
 
 You can find a more detailed guide on how to deploy the solution [here](https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/tree/master/guide).
 
