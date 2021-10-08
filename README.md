@@ -61,7 +61,7 @@ If you encounter any bugs or have suggestions, please file an issue in the [Issu
 ## Big Thanks! 🚀
 This solution was heavily influenced by [this][azure-sample-url] Azure-Samples solution. Big love to them for inspiring me to build this soluton.
 
-[green-led-gif]: https://media.giphy.com/media/F6fwrkMoHZD1MUaINe/giphy-downsized-large.gif
+[green-led-gif]: https://media.giphy.com/media/lZbDOeIHhEeLHcPFfs/giphy-downsized-large.gif
 [red-led-gif]: https://media.giphy.com/media/rZxUgucFatEhH0cOLx/giphy-downsized-large.gif
 [guide-path]: https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/tree/master/guide
 [azure-sample-url]: https://github.com/Azure-Samples/Custom-vision-service-iot-edge-raspberry-pi
