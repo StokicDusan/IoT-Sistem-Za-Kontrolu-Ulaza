@@ -19,7 +19,7 @@ You can run this solution using the following hardware:
 
 - **USB Camera**: Connect a camera on a Raspberry Pi 3 USB port,
 
-- **Electronics Components**: Most of what you needed for this solution can be found in the [SparkFun Inventor's Kit](https://www.sparkfun.com/products/15267) which includes:
+- **Electronics Components**: Most of what you needed for this solution can be found in the [SparkFun Inventor's Kit][spark-fun-kit-url] which includes:
   * Solderless Breadboard,
   * Ultrasonic Distance Sensor,
   * Relay module,
@@ -41,8 +41,8 @@ You must have the following services set up to use this solution:
 
 ### Tooling
 You need the following dev tools to do IoT Edge development in general, to make this solution run and edit it:
-- **Visual Studio Code**: IoT Edge development environment. [Download it from here](https://code.visualstudio.com/).
-- **Visual Studio Code: Azure IoT Edge Extension**: This extension connects to your IoT Hub and lets you manage your IoT Devices and IoT Edge Devices from VS Code. [Download it from here](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-edge). Once installed, connect it to your IoT Hub.
+- **Visual Studio Code**: IoT Edge development environment. [Download it from here][vscode-url].
+- **Visual Studio Code: Azure IoT Edge Extension**: This extension connects to your IoT Hub and lets you manage your IoT Devices and IoT Edge Devices from VS Code. [Download it from here][azure-extention-url]. Once installed, connect it to your IoT Hub.
 
 ## Get started
 ### To deploy the solution
@@ -51,19 +51,23 @@ You need the following dev tools to do IoT Edge development in general, to make 
 3. Build the entire solution by right-clicking on the `deployment.template.json` file and select `Build and push IoT Edge Solution`,
 4. Deploy the solution to your device by right-clicking on the `config/deployment.json` file, select `Create Deployment for Single device` and choose your targeted device.
 5. Test out the solution!!!  
-![greenLED](https://giphy.com/gifs/led-iot-raspberry-pi-3-F6fwrkMoHZD1MUaINe) ![redLED](https://giphy.com/gifs/electronics-iot-raspberry-pi-3-rZxUgucFatEhH0cOLx)
+![greenLED][green-led-gif]  ![redLED][red-led-gif]  
 
-You can find a more detailed guide on how to deploy the solution [here](https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/tree/master/guide).
+You can find a more detailed guide on how to deploy the solution [here][guide-path].
 
 ## Provide Feedback 👍
-
-If you encounter any bugs or have suggestions, please file an issue in the
-[Issues][issues-url]
-section of the project.
+If you encounter any bugs or have suggestions, please file an issue in the [Issues][issues-url] section of the project.
 
 ## Big Thanks! 🚀
-This solution was heavily influenced by [this](https://github.com/Azure-Samples/Custom-vision-service-iot-edge-raspberry-pi) Azure-Samples solution. Big love to them for inspiring me to build this soluton.
+This solution was heavily influenced by [this][azure-sample-url] Azure-Samples solution. Big love to them for inspiring me to build this soluton.
 
+[green-led-gif]: https://media.giphy.com/media/lZbDOeIHhEeLHcPFfs/giphy-downsized-large.gif
+[red-led-gif]: https://media.giphy.com/media/rZxUgucFatEhH0cOLx/giphy-downsized-large.gif
+[guide-path]: https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/tree/master/guide
+[azure-sample-url]: https://github.com/Azure-Samples/Custom-vision-service-iot-edge-raspberry-pi
+[vscode-url]: https://code.visualstudio.com/
+[azure-extention-url]: https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-edge
+[spark-fun-kit-url]: https://www.sparkfun.com/products/15267
 [contributors-shield]: https://img.shields.io/github/contributors/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza
 [contributors-url]: https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza?style=social
