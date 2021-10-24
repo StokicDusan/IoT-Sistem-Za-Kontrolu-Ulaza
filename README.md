@@ -8,7 +8,7 @@
 
 # Azure IoT Edge system for access control using Custom Vision
 
-This is a project showing how to deploy a Custom Vision model to a Raspberry Pi 3 device running Azure IoT Edge. The project uses Custom Vision model for facial recognition and controls a relay module which can be used as a switch opening an automatic door.
+This is a project showing how to deploy a solution with Custom Vision AI model to a Raspberry Pi 3 device running Azure IoT Edge. The project uses Custom Vision model for facial recognition and controls a relay module which can be used as a switch opening an automatic door. Apart from controlling access, the solution logs people who got granted access.
 
 ## Prerequisites
 
@@ -53,7 +53,7 @@ You need the following dev tools to do IoT Edge development in general, to make 
 5. Test out the solution!!!  
 ![greenLED][green-led-gif]  ![redLED][red-led-gif]  
 
-You can find a more detailed guide on how to deploy the solution [here][guide-path].
+You can find a more comprehensive guide on how to deploy the solution in the [guide][guide-path] directory.
 
 ## Provide Feedback 👍
 If you encounter any bugs or have suggestions, please file an issue in the [Issues][issues-url] section of the project.
