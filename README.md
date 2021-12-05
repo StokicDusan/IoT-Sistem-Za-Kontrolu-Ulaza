@@ -1,3 +1,4 @@
+[![Downloads][downloads-shield]][downloads-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Commit-activity][commit-activity-shield]][commit-activity-url]
 [![Issues][issues-shield]][issues-url]
@@ -68,6 +69,8 @@ This solution was heavily influenced by [this][azure-sample-url] Azure-Samples s
 [vscode-url]: https://code.visualstudio.com/
 [azure-extention-url]: https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-edge
 [spark-fun-kit-url]: https://www.sparkfun.com/products/15267
+[downloads-shield]: https://img.shields.io/github/downloads/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/total 
+[downloads-url]: https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/releases
 [contributors-shield]: https://img.shields.io/github/contributors/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza
 [contributors-url]: https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza?style=social
