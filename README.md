@@ -47,7 +47,7 @@ You need the following dev tools to do IoT Edge development in general, to make 
 
 ## Get started
 ### To deploy the solution
-1. Clone this solution,
+1. Clone this solution, download zip or the latest [release][release-url],
 2. Update the `.env` file with the values for your container registry and make sure that your docker engine has access to it,
 3. Build the entire solution by right-clicking on the `deployment.template.json` file and select `Build and push IoT Edge Solution`,
 4. Deploy the solution to your device by right-clicking on the `config/deployment.json` file, select `Create Deployment for Single device` and choose your targeted device.
@@ -69,6 +69,7 @@ This solution was heavily influenced by [this][azure-sample-url] Azure-Samples s
 [vscode-url]: https://code.visualstudio.com/
 [azure-extention-url]: https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-edge
 [spark-fun-kit-url]: https://www.sparkfun.com/products/15267
+[release-url]: https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/releases
 [downloads-shield]: https://img.shields.io/github/downloads/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/total 
 [downloads-url]: https://github.com/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza/releases
 [contributors-shield]: https://img.shields.io/github/contributors/StokicDusan/IoT-Sistem-Za-Kontrolu-Ulaza
