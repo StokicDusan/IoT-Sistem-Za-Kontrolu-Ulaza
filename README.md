@@ -11,7 +11,7 @@
 
 This is a project showing how to deploy a solution with Custom Vision AI model to a Raspberry Pi 3 device running Azure IoT Edge. The project uses Custom Vision model for facial recognition and controls a relay module which can be used as a switch opening an automatic door. Apart from controlling access, the solution logs people who got granted access.
 
-This project was initiated as a Bachelor thesis at the School of Electrical Engineering (ETF), University of Belgrade, Serbia https://www.etf.bg.ac.rs/
+This project was initiated as a Bachelor thesis at the School of Electrical Engineering (ETF), University of Belgrade.
 
 ## Prerequisites
 
